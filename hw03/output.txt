@@ -1,0 +1,70 @@
+Wyoming
+Wisconsin
+West Virginia
+Washington	
+Virgin Islands
+Virginia
+Vermont
+Utah
+Texas
+Tennessee
+South Dakota
+South Carolina
+Rhode Island
+Puerto Rico
+Pennsylvania
+Oregon
+Oklahoma
+Ohio
+Nothern Marianas Islands
+North Dakota
+North Carolina
+New York
+New Mexico
+New Jersey
+New Hampshire
+Nevada
+Nebraska
+Montana
+Missouri
+Mississippi
+Minnesota
+Michigan
+Massachusetts
+Maryland
+Maine
+Louisiana
+Kentucky
+Kansas
+Iowa
+Indiana
+Illinois
+Idaho
+Hawaii
+Guam
+Georgia
+Flordia
+District of Columbia
+Delaware
+Connecticut
+Colorado
+California
+Arkansas
+Arizona
+American Samoa
+Alaska
+Alabama
+   
+
+
+Enter a letter to narrow search (1: exit, 0: whole list): A
+
+    Alabama
+    Alaska
+    American Samoa
+    Arizona
+    Arkansas
+
+
+
+Enter a letter to narrow search (1: exit, 0: whole list): 1
