@@ -30,7 +30,7 @@ def main():
     
     print "Is Rotifera in the list?"
     print "\n"
-    x = alst.pulloneout("Rotifera")  #search for Rotifera
+    x = alst.pull_one_out("Rotifera")  #search for Rotifera
     
     print x
     print "\n"

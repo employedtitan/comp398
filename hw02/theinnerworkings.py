@@ -34,7 +34,7 @@ class Node:
         Returns the data stored in the Node's up_next varaible
         """
         
-        return self.upnext
+        return self.up_next
     
     def new_word(self, werd):
         """
@@ -98,7 +98,7 @@ class Lst:
                 #if not found
                 begin = begin.next_node()
                 
-        return gotit
+        return got_it
         
     def return_all(self):
         """
