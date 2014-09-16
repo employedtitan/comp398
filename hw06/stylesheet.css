@@ -1,0 +1,33 @@
+thead{
+	font-size: 30px;
+	font-family: Garamond, serif;
+	text-align: center;
+}
+
+
+.stark{
+	font-style: bold;
+	font-size: 28px;
+	font-family: Garamond, serif;
+	
+	
+}
+
+.common{
+	font-size: 20px;
+	font-family: Garamond, serif;
+	padding:5px;
+	border-right:1px solid black;
+	
+
+}
+
+.uncommon{
+	font-style: bold;
+	font-family: Castellar, Times, serif;
+	color: blue;
+	text-decoration: underline;
+	padding:5px;
+	border-right:1px solid black;
+	
+}
