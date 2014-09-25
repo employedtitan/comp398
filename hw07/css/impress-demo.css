@@ -86,12 +86,12 @@ body {
     min-height: 740px;
 
     background: rgb(215, 215, 215);
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
-    background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(78, 21, 79)));
+    background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(78, 21, 79));
+    background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(78, 21, 79));
+    background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(78, 21, 79));
+    background:      -o-radial-gradient(rgb(240, 240, 240), rgb(78, 21, 79));
+    background:         radial-gradient(rgb(240, 240, 240), rgb(78, 21, 79));
 }
 
 /*
@@ -120,7 +120,7 @@ a {
 
 a:hover,
 a:focus {
-    background: rgba(255,255,255,1);
+    background: rgba(255,255,0,1);
     text-shadow: -1px -1px 2px rgba(100,100,100,0.5);
 }
 
@@ -249,6 +249,25 @@ a:focus {
     First is the title step with a big <h1> (no room for padding) and some
     3D positioning along Z axis.
 */
+ input:enabled{
+    color: #333;
+    font-style: italic;
+}
+
+ input:disabled{
+      background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQIW2NkQAKrVq36zwjjgzhhYWGMYAEYB8RmROaABADeOQ8CXl/xfgAAAABJRU5ErkJggg==) repeat;
+    
+}
+
+
+input[type=checkbox] + label {
+  color: #ccc;
+  
+} 
+
+input[type=checkbox]:checked + label {
+  color: #0A0;
+  }
 
 #title {
     padding: 0;
@@ -287,6 +306,8 @@ a:focus {
 
     Let's move to 'big thoughts' with centered text and custom font sizes.
 */
+
+
 #big {
     width: 600px;
     text-align: center;

@@ -269,6 +269,102 @@
        
     </div>
 
+
+    <div class="step" data-x="-2825" data-y="2325" data-z="3000" data-rotate="300" data-scale="1">
+        <p>Use of the focus pseudo-selector is mostly for keyboard navagation of a site</p>
+        <p>This is not just limited to links but to input boxes and text as well</p>
+    </div>
+
+    <div id = "textstuff" class="step" data-x="-4825" data-y="3876" data-z="-2000" data-rotate="300" data-scale="1">
+            <p>Here is what the CSS code would look like, and in action</p>
+            <a>a:focus {
+                    background: yellow;
+                    }
+            </a>
+    </div>
+
+     <div class="step" data-x="-5290" data-y="4876" data-z="7000" data-rotate="600" data-scale="1">
+            <p>The target pseudo-selector is a powerful tool used not just to link to sites but to specific sections of a page</p>
+            <p>the pseudo-selector will jump to a point in the page where the hash mark in the url matches the I.D. of the selector</p>
+            <a href="en.wikipedia.org/wiki/Norway#Viking_Age">an example of the target pseudo-selector in action can be found here</a>
+
+     </div>
+
+      <div class="step" data-x="-8290" data-y="4876" data-z="2000" data-rotate="800" data-scale="1">
+
+        <p>Here is what that CSS code would look like</p>
+        <p>#voters:target {}</p>
+        <p>and the HTML</p>
+        <p>(section id="voters"> Content (/section></p>
+     </div>
+
+
+     <div class="step" data-x="-7290" data-y="4876" data-z="7000" data-rotate="700" data-scale="1">
+
+        <p>The enabled and disabled pseudo-selectors are used to select enabled and disabled areas of input</p>
+     </div>
+
+
+    <div id = "out" class="step" data-x="-4790" data-y="6876" data-z="7000" data-rotate="200" data-scale="1">
+         <label for="name">Enabled Input:</label>
+            <input type="text" autofocus>
+            <hr>
+        <label for="name">Disabled Input:</label>
+        <input type="text" disabled>
+    </div>
+
+    <div class="step" data-x="-9290" data-y="2876" data-z="-9000" data-rotate="900" data-scale="1">
+
+        <p>Here is what that code would look like in CSS</p>
+        <p> input:enabled{color: #333;font-style: italic;}
+            input:disabled{background: url(data:image/png;base64,iVBOR...) repeat;}</p>
+        <p>and in HTML</p>
+        <p> (label for="name">Enabled Input:(/label)
+            (input type="text" autofocus)
+            (label for="name">Disabled Input:(/label(
+            (input type="text" disabled)</p>
+     </div>
+
+
+
+     <div class="step" data-x="-3290" data-y="2776" data-z="-7000" data-rotate="700" data-scale="1">
+
+        <p>The checked pseudo selector effects check boxes in different states</p>
+     </div>
+
+     <div class="step" data-x="-2290" data-y="9876" data-z="10000" data-rotate="100" data-scale="1">
+
+        <input type="checkbox" id="ossm" name="ossm"> 
+        <label for="ossm">change my color</label>
+     </div>
+
+      <div class="step" data-x="-3290" data-y="4576" data-z="-7000" data-rotate="700" data-scale="1">
+
+        <p>Here is what that code looks like in CSS</p>
+        <p>input[type=checkbox] + label {color: #ccc;} 
+            input[type=checkbox]:checked + label {color: #0A0;}</p>
+        <p>and HTML</p>
+        <p>(input type="checkbox" id="ossm" name="ossm") 
+        (label for="ossm">change my color(/label)</p>
+     </div>
+
+     <div class="step" data-x="-3290" data-y="9276" data-z="-7000" data-rotate="700" data-scale="1">
+
+        <p>Classes are multiple use selectors</p>
+        <p>meaning that they can apply to as many different elements as you want</p>
+        <p>You can use them to style speific elements in your code without changing all elements of that type</p>
+     </div>
+
+
+
+     <div class="step" data-x="-8690" data-y="3776" data-z="10000" data-rotate="700" data-scale="1">
+
+        <p>Here is some example code in CSS</p>
+        <p>.stuff{font-family: helvetika, serif;}</p>
+        <p>Here is some example code in HTML</p>
+        <p>(td class="stuff")Nutrition Facts(/td)</p>
+     </div>
+
     <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
         <p>the only <b>limit</b> is your <b class="imagination">imagination</b></p>
     </div>
