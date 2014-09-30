@@ -1,0 +1,30 @@
+table{
+	border-collapse: collapse;
+	border: 2px solid black;
+}
+
+.stuff{
+	font-family: helvetika, serif;
+	font-style: bold;
+	font-size: 50px;
+}
+
+.smallline{
+	border-bottom: 2px solid black;
+
+
+}
+
+.bigline{
+	border-bottom: 6px solid black;
+}
+.bolded{
+	font-style: bold;
+}
+
+#smalltext{
+	font-style: bold;
+	font-size: 10px;
+}
+
+
