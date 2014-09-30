@@ -70,6 +70,47 @@
  	 }
 
  	}
+ 	{
+ 	"type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates":[42.032179, -71.219935]
+    },
+    "properties":{
+     "name": "Drop off/pick up at Mansfield station"
+    }
+    }
+
+    {
+ 	"type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates":[42.010662, -71.226290]
+    },
+    "properties":{
+     "name": "Drop off/pick up at Mansfield crossing"
+    }
+    }
+    {
+ 	"type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates":[41.981808, -71.208919]
+    },
+    "properties":{
+     "name": "Drop off/Pick up at Great Woods Plaza"
+    }
+    }
+    "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates":[41.966341, -71.185808]
+    },
+    "properties":{
+     "name": "Drop off/Pick up at Wheaton college"
+    }
+    }
+
  ]
 	
 }
