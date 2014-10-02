@@ -1,0 +1,1 @@
+The code(in indextwo.html) I added is the small really tabbed out section, it works by using the form tag to submit a search entered by the user(up to 255 charcters) to google search, the search can be limited to just the website or to the entire web using a radio input type to add the limiter for the site to the search
