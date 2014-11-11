@@ -1,0 +1,124 @@
+body{
+	background-color: orange;
+	width:1567px;
+}
+
+img{
+	width: 200px;
+	height: 200px;
+	border-width: 4.5px;
+	border-style: dashed;
+	border-radius: 30px;
+}
+
+p{
+	color: yellow;
+}
+
+
+#over{
+	position: relative; left: 150px; top: 150px;
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+	-o-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	transform: rotate(30deg);
+	
+}
+
+#abit{
+	position: relative; left: 150px; top: 190px;
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	-o-transform: rotate(60deg);
+	-ms-transform: rotate(60deg);
+	transform: rotate(60deg);
+	
+}
+
+#side{
+	position: relative; left: 60px; top: 40px;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+	
+}
+
+#turning{
+	position: relative; right: 1000px; 
+	-webkit-transform: rotate(120deg);
+	-moz-transform: rotate(120deg);
+	-o-transform: rotate(120deg);
+	-ms-transform: rotate(120deg);
+	transform: rotate(120deg);
+	
+}
+#almost{
+	position: relative; right: 1000px; top: -450px; 
+	-webkit-transform: rotate(150deg);
+	-moz-transform: rotate(150deg);
+	-o-transform: rotate(150deg);
+	-ms-transform: rotate(150deg);
+	transform: rotate(150deg);
+	
+}
+#upsideDown{
+	position: relative; right: 850px; top: -1005px; 
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+	
+}
+#go{
+	position: relative; right: 505px; top: -1565px; 
+	-webkit-transform: rotate(210deg);
+	-moz-transform: rotate(210deg);
+	-o-transform: rotate(210deg);
+	-ms-transform: rotate(210deg);
+	transform: rotate(210deg);
+	
+}
+
+#more{
+	position: relative; right: 1000px; top: -1785px; 
+	-webkit-transform: rotate(240deg);
+	-moz-transform: rotate(240deg);
+	-o-transform: rotate(240deg);
+	-ms-transform: rotate(240deg);
+	transform: rotate(240deg);
+	
+}
+#onside{
+	position: relative; right: 420px; top: -2075px; 
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+
+}
+#turned{
+	position: relative; right: -315px; top: -2085px;
+	-webkit-transform: rotate(315deg);
+	-moz-transform: rotate(315deg);
+	-o-transform: rotate(315deg);
+	-ms-transform: rotate(315deg);
+	transform: rotate(315deg);
+}
+
+#last{
+	position: relative; right: -765px; top: -1815px;
+}
+
+#theText{
+	position: relative; right: -350px; top: -2550px;
+}
+p{
+	font-weight: bold;
+	font-size: 70px;
+	font-family: Calibri, Verdana
+}
